@@ -1,0 +1,12 @@
+{
+  "name": "AdministrationWebService",
+  "version": "0.0.1",
+  "description": "Part of Hotel Management project. Web service for admininstaration.",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jscs": "^2.8.0",
+    "jscs-jsdoc": "^2.0.0",
+    "mongodb": "^2.1.18"
+  }
+}

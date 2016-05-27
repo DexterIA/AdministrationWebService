@@ -1,0 +1,70 @@
+{
+    "plugins": [
+      "jscs-jsdoc"
+    ],
+    "excludeFiles": ["node_modules/**"],
+    "maximumLineLength": {
+      "value": 160,
+      "allowComments": true,
+      "allowRegex": true
+    },
+
+    "disallowKeywordsOnNewLine": ["else"],
+    "disallowKeywords": ["with"],
+    "disallowMixedSpacesAndTabs": true,
+    "disallowNewlineBeforeBlockStatements": true,
+    "disallowOperatorBeforeLineBreak": ["."],
+    "disallowQuotedKeysInObjects": "allButReserved",
+    "disallowSpaceAfterPrefixUnaryOperators": true,
+    "disallowSpaceBeforePostfixUnaryOperators": true,
+    "disallowSpacesInCallExpression": true,
+
+    "requireSpacesInFunction": {
+        "beforeOpeningCurlyBrace": true
+    },
+
+    "disallowTrailingComma": true,
+    "disallowTrailingWhitespace": true,
+
+    "requireBlocksOnNewline": 2,
+    "requireCapitalizedConstructors": true,
+
+    "requireMultipleVarDecl": true,
+    "requireParenthesesAroundIIFE": true,
+    "requireSpaceBeforeKeywords": [
+        "else",
+        "catch"
+    ],
+    "requireSpaceAfterKeywords": [
+        "if",
+        "else",
+        "for",
+        "while",
+        "do",
+        "switch",
+        "try",
+        "catch"
+    ],
+    "requireSpaceBeforeBinaryOperators": [
+        "=", "+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=",
+        "&=", "|=", "^=", "+=",
+
+        "+", "-", "*", "/", "%", "<<", ">>", ">>>", "&",
+        "|", "^", "&&", "||", "===", "==", ">=",
+        "<=", "<", ">", "!=", "!=="
+    ],
+    "requireCurlyBraces": [
+        "try",
+        "catch"
+    ],
+    "requireSpaceBeforeObjectValues": true,
+    "requireSpaceBetweenArguments": true,
+    "requireSpacesInConditionalExpression": {
+        "afterTest": true,
+        "beforeConsequent": true,
+        "afterConsequent": true,
+        "beforeAlternate": true
+    },
+    "validateIndentation": 2,
+    "validateQuoteMarks": "'"
+}

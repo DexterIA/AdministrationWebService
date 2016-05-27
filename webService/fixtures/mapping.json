@@ -1,0 +1,18 @@
+{
+  "frontOfficeUsers": [
+    {
+      "login": "ivanov",
+      "pass": 123,
+      "firstName": "Иван",
+      "lastName": "Иванов",
+      "telNumber": "+7 918 455-55-05"
+    },
+    {
+      "login": "alina",
+      "pass": 12345,
+      "firstName": "Алина",
+      "lastName": "Петрова",
+      "telNumber": "+7 952 755-55-75"
+    }
+  ]
+}
